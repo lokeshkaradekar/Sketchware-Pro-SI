@@ -3,6 +3,9 @@ name: Isolated Baseline Build
 
 on:
   workflow_dispatch:
+  push:
+    branches:
+      - wip/isolated-baseline-build
 
 permissions:
   contents: read
